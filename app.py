@@ -68,7 +68,7 @@ def send_friend_request(target_uid, jwt_token, region, results, lock):
             "Authorization": f"Bearer {jwt_token}",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB51",
+            "ReleaseVersion": "OB52",
             "Content-Type": "application/x-www-form-urlencoded",
             "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 9; SM-N975F Build/PI)",
             "Connection": "close",
